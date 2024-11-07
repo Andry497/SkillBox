@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CalculationTypePredefinedItems" version="2.18">
+	<Item id="91a3b5ea-3fc6-4b88-b921-f7e3c9a9b729">
+		<Name>НДФЛ</Name>
+		<Code>1</Code>
+		<Description>НДФЛ</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Base>
+			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.Оклад</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ДополнительныеНачисления.Подарок</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ДополнительныеНачисления.Премия</CalculationType>
+		</Base>
+	</Item>
+</PredefinedData>
